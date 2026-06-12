@@ -31,6 +31,3 @@ Accuracy: 92%
 
 Open in Google Colab and run cells in order. The notebook downloads its own data from PhysioNet.
 
-## Limitations
-
-Small sample size (~700–2000 patients) leads to unstable probability calibration across cross-validation folds; threshold selection uses a percentile-based approach as a result. See `report.pdf` for details.
